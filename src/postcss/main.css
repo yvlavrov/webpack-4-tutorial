@@ -1,3 +1,5 @@
+@import "./other-files/room.css";
+
 @define-mixin icon $name {
   padding-left: 16px;
   &::after {
@@ -7,5 +9,5 @@
 }
 
 .search {
-@mixin icon search;
+    @mixin icon search;
 }
